@@ -8,7 +8,6 @@ let fromList = [{bangkok : []}]
 const seeDetailOf = ref => {
   return 'something'
 }
-
 const scrapList = (loadble, stock) => {
     const list = loadble('div.page-block div.block-card ul.text-columns-2 a')
   list.map((index, item) => {
@@ -38,7 +37,7 @@ fromList.map(startFrom => {
     return  startFrom
   })
   .then(res => {
-    console.log(fromList)
+    console.log(fromList,res)
   })
 })
   
