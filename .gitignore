@@ -22,3 +22,5 @@ yarn-error.log*
 
 /functions/lib
 /functions/node_modules
+
+ex.js
